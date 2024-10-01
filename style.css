@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.container{
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+}
+
+.item{
+    margin-left: 700px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+    animation: quyosh 10s linear infinite ;
+    position: absolute;
+
+    
+}
+
+
+.bulut{
+    margin-top: -60px;
+    position: absolute;
+    display: flex;
+    animation-duration: 10s;
+}
+
+.quyosh1{
+    animation-name: quyosh1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+}
+
+
+.quyosh2{
+    animation-name: quyosh2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-top: 50px;
+    margin-top: 50px;
+
+
+}
+
+.quyosh3{
+    animation-name: quyosh3;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-top: 80px;
+
+
+
+}
+
+@keyframes quyosh1 {
+
+    0%{
+        transform:translateX(0);
+    }
+    50%{
+        transform: translateX(1200px);
+       
+    }
+    100%{
+        transform: translateX(-500px);
+       
+    }
+}
+
+
+@keyframes quyosh2 {
+
+    0%{
+        transform:translateX(0);
+    }
+    50%{
+        transform: translateX(1200px);
+       
+    }
+    100%{
+        transform: translateX(-500px);
+       
+    }
+}
+
+
+@keyframes quyosh3 {
+
+    0%{
+        transform:translateX(0);
+    }
+    50%{
+        transform: translateX(1200px);
+       
+    }
+    100%{
+        transform: translateX(-500px);
+       
+    }
+}
+
+
+@keyframes quyosh {
+    0%{
+        transform: translateY(-300px
+        
+        );
+    }
+    50%{
+        transform: translateY(250px);
+        background-color: orange;
+    }
+    100%{
+        transform: translateY(-500px);
+    }
+}
